@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.headers {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+@media screen and (min-width: 320px) {
+.allStories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   
+    /* column-count: 3;
+    column-width: 33%;
+    grid-template-rows: repeat(2, 1fr 1fr);
+    row-gap: 10%; */
+}
+}
+
+
+@media screen and (min-width: 320px) {
+    img,
+    picture, 
+    video {
+        max-width: 100%;
+    }
+}
