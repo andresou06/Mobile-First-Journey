@@ -23,7 +23,7 @@ body {
 .headers {
     
     position: sticky;
-   top: 25px;
+   top: 40px;
     z-index: 1111;
     background-color: rgb(137, 130, 130);
 }
@@ -34,7 +34,7 @@ ul {
 }
 li {
     list-style: none;
-    font-size: 1.4rem;
+    font-size: 2.3rem;
 
 }
 
@@ -47,14 +47,18 @@ li:hover {
 
 
 .research {
-   padding: 1;
+   
    border-radius: 5%;
+   font-size: 2rem;
   width: 70%;
    border: solid transparent;
 }
-
+.search {
+    margin: 2rem
+}
 button {
-    padding: .5rem;
+    padding: 0;
+    font-size: 1.5rem;
     background: black;
     color: aliceblue;
     border-radius: 10%;
@@ -67,8 +71,9 @@ button:hover {
     background-color: rgb(181, 158, 55);
 }
 .bar { 
+   margin: 1em;
     display: flex;
-
+  
     padding: 0;
 }
 
@@ -127,7 +132,7 @@ img:hover{
 
 img {
     width: 140%;
-    height: 15rem;
+    height: 17rem;
     padding: 0;
     border-radius: 2%;
    
@@ -222,8 +227,8 @@ a:hover {
 
 
 .image_story {
-    width: 14rem;
-    height: 12rem;
+    width: 20rem;
+    height:15rem;
     margin: 1rem;
 }
 
