@@ -29,3 +29,19 @@
 // box6.addEventListener('click', () => {
 //     open('./six.html');
 // });
+
+const storybtn = document.querySelector('.storybtn');
+const cancel = document.querySelector('.cancel');
+const dialog1 = document.querySelector('.Stories');
+
+
+storybtn.addEventListener('click',() => {
+    dialog1.showModal();
+    
+    
+}) 
+
+cancel.addEventListener('click', () => {
+    dialog1.close();
+
+})

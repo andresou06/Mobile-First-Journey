@@ -9,12 +9,17 @@ html {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+@keyframes leftIn {
+    from {width: 0%;}
+    to {width:100%;}
+}
+
 
 body {
     animation: fadeIn 2s ease-in-out;
     margin: 0;
     padding: 0;
-    z-index: 9999;
+    z-index: 9998;
     color: white;
     background-color:rgb(0, 0, 0);
   
@@ -47,6 +52,50 @@ li:hover {
 }
 
 
+
+
+dialog {
+    animation: leftIn 1s ease-in-out;
+    position: sticky;
+       right: auto;
+       top:5rem;
+       width: 15rem;
+       max-width: 15rem;
+       z-index: 999;
+       height: 100%;
+       background-color: black;
+       color: aliceblue;
+       border: solid  gray 1px;
+     
+}
+
+dialog ul {
+    display: grid;
+    gap: 2rem;
+ 
+}
+
+dialog a {
+
+    font-size: 60%;
+    border: solid transparent;
+    background-color: black;
+    transition: 0s;
+    opacity: 1;
+    background-color: transparent;
+   
+}
+dialog li {
+   
+    line-height: 1.2rem;
+    width: fit-content;
+}
+
+
+dialog .cancel {
+   border: solid white;
+   
+}
 .research {
    
    border-radius: 5%;
@@ -59,7 +108,7 @@ li:hover {
 }
 button {
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background: black;
     color: aliceblue;
     border-radius: 10%;
@@ -184,8 +233,9 @@ a {
     border: solid white 2px;
     border-radius: 20%;
     color: aliceblue;
-    width: 60%;
-    height:60%;
+    width: 100%;
+    height:100%;
+    font-size: 1.2rem;
 
 }
 a:hover {
@@ -194,7 +244,7 @@ a:hover {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     color: black;
-    animation-duration: 3s;
+  
 
 }
 
@@ -272,20 +322,68 @@ a:hover {
        padding: 0;
        color: aliceblue;
     }
+
+    
+
+dialog {
+    animation: leftIn 1s ease-in-out;
+    position: sticky;
+     top: 0;
+     right: auto;
+     width: 40rem;
+       max-width: 40rem;
+       z-index: 999;
+       height: 100%;
+       background-color: black;
+       color: aliceblue;
+       border: solid  gray 1px;
+     
+}
+
+dialog ul {
+    display: grid;
+    gap: 2rem;
+ 
+}
+
+dialog a {
+
+    font-size: 70%;
+
+    border: solid transparent;
+    background-color: black;
+    transition: 0s;
+    opacity: 1;
+    line-height: 2rem;
+    background-color: transparent;
+   
+}
+dialog li {
+  
+    line-height: 2rem;
+    width: fit-content;
+}
+
+
+dialog .cancel {
+   border: solid white;
+   position: sticky;
+   
+   
+}
+
     
     .research {
        padding: 0;
        border-radius: 5%;
-       width: 100%;
+       width: 50%;
        border: solid transparent;
-       background-color: rgb(137, 130, 130);
-       color: white;
+
     }
     
     button {
        
-        background: black;
-        color: aliceblue;
+       
         border-radius: 10%;
     }
     
@@ -326,7 +424,7 @@ label {
     
    box-sizing: border-box;
    background-color: rgb(45, 44, 44,0.6);
-   width: 25%;
+   width: 30%;
    height: 100%;
    
 }
@@ -413,7 +511,7 @@ animation-duration: 3s;
     color: white;
     background-color:rgb(0, 0, 0);
     line-height: 1.4;
-    header-sizing: border-header;
+  
 }
 
 .story {
@@ -486,17 +584,15 @@ animation-duration: 3s;
     .research {
        padding: 0;
        border-radius: 5%;
-       width: 100%;
+       width: 50%;
        border: solid transparent;
-       background-color: rgb(137, 130, 130, 0.3);
         font-size: 2rem;
        color: white;
     }
     
     button {
        
-        background: black;
-        color: aliceblue;
+      
         border-radius: 10%;
         font-size: 2rem;
     }
