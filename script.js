@@ -45,3 +45,27 @@ cancel.addEventListener('click', () => {
     dialog1.close();
 
 })
+
+// #######################################################
+
+
+
+// const btnsearch = document.querySelector('.btn');
+
+
+//     var userInput = document.querySelector("input").value;
+  
+//     const anyQueryMatch= ["Story", "1", "2", "3", "4", "5"];
+//   let text1 = document.getElementById('2');
+
+ 
+
+//     // x = "";
+//     // if (userInput[x] = anyQueryMatch[x]) {
+//     //     .style.background-color = "blue";
+//     // }
+
+
+// btnsearch.addEventListener('click', () => {
+//     text1.focus();
+// })
