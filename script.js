@@ -1,13 +1,9 @@
-// let box1 = document.querySelector(".box1");
-// let box2 = document.querySelector(".box2");
-// let box3 = document.querySelector(".box3");
-// let box4 = document.querySelector(".box4");
-// let box5 = document.querySelector(".box5");
-// let box6 = document.querySelector(".box6");
-
-// box1.addEventListener('click', () => {
-
-// });
+// let box1 = document.querySelector("#one");
+// let box2 = document.querySelector("#two");
+// let box3 = document.querySelector("#three");
+// let box4 = document.querySelector("#four");
+// let box5 = document.querySelector("#five");
+// let box6 = document.querySelector("#six");
 
 // box1.addEventListener('click', () => {
 //     open('./one.html');
@@ -29,6 +25,10 @@
 // box6.addEventListener('click', () => {
 //     open('./six.html');
 // });
+function openInNewTab(url) {
+    window.open(url).focus();
+  }
+  
 
 const storybtn = document.querySelector('.storybtn');
 const cancel = document.querySelector('.cancel');
