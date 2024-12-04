@@ -46,8 +46,18 @@ cancel.addEventListener('click', () => {
 
 })
 
+
 // #######################################################
 
+const storymaintenance = document.querySelector('.underdevelopment');
+const popmaintenance = document.querySelector('.popmaintenance');
+storymaintenance.addEventListener('click', () => {
+    popmaintenance.showModal();
+    setTimeout(() => {
+        popmaintenance.close();
+    }, 2000);
+
+});
 
 
 // const btnsearch = document.querySelector('.btn');
