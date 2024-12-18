@@ -281,17 +281,15 @@ color: aliceblue;
     opacity: 0.3;
     cursor: none;
 }
-
-.popmaintenance {
-    animation: fadeout ease-in-out 2s;
-    background-position: center;
-    width: 20rem;
-    height: 10rem;
-    position: relative;
-    left: 25rem;
-    top: 200%;
-    
-
+.maintenance {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100vw;
+    height: 50vh;
+    font-size: 3rem;
+    background-color: black;
+    color: aliceblue;
 }
 
 
@@ -361,18 +359,7 @@ dialog ul {
  
 }
 
-dialog a {
 
-    font-size: 70%;
-
-    border: solid transparent;
-    background-color: black;
-    transition: 0s;
-    opacity: 1;
-    line-height: 2rem;
-    background-color: transparent;
-   
-}
 dialog li {
   
     line-height: 2rem;

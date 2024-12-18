@@ -3,7 +3,7 @@ function openInNewTab(url) {
     window.open(url).focus();
   }
   
-
+// ###############################################################
 const storybtn = document.querySelector('.storybtn');
 const cancel = document.querySelector('.cancel');
 const dialog1 = document.querySelector('.Stories');
@@ -25,15 +25,17 @@ cancel.addEventListener('click', () => {
 
 // #######################################################
 
-const storymaintenance = document.querySelector('.underdevelopment');
-const popmaintenance = document.querySelector('.popmaintenance');
-storymaintenance.addEventListener('click', () => {
-    popmaintenance.showModal();
-    setTimeout(() => {
-        popmaintenance.close();
-    }, 2000);
+// const storymaintenance = document.querySelector('.underdevelopment');
+// const maintenance = document.querySelector('.maintenance');
 
-});
+// storymaintenance.addEventListener('click', () => {
+//     maintenance.showModal();
+    
+//     setTimeout(() => {
+//         maintenance.close();
+//     }, 1000);
+
+// });
 
 
 const projectbtn = document.querySelector('.projectbtn');
